@@ -26,6 +26,7 @@ jobs:
       - name: Prepare repository
         run: git reset --hard HEAD
       - name: Publishing on Global npm registry
+        env:
           NO_HUSKY: 1
         run: |
           git config --global user.name 'storyblok-components'
