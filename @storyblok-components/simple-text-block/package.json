@@ -12,7 +12,7 @@
   "main": "./dist/index.js",
   "module": "./dist/index.modern.js",
   "scripts": {
-    "build": "microbundle -i ./src/web-ui-text-block.js && find ./src -name \\*.sb.js -exec cp {} dist \\;"
+    "build": "microbundle --no-compress --jsx React.createElement && find ./src -name \\*.sb.js -exec cp {} dist \\;"
   },
   "peerDependencies": {
     "react": "^16.4.0",
