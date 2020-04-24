@@ -19,7 +19,11 @@ jobs:
         with:
           node-version: 12.x
       - name: Building packages
+        env:
+          NPM_REGISTRY_TOKEN: ${{ secrets.NPM_REGISTRY_TOKEN }}
         run: |
+          npm config set //registry.npmjs.org/:_authToken $NPM_REGISTRY_TOKEN
+          npm config set //registry.npmjs.org/:always-auth true
           yarn install
 
           yarn start
@@ -27,10 +31,11 @@ jobs:
         run: git reset --hard HEAD
       - name: Publishing on Global npm registry
         env:
+          NPM_REGISTRY_TOKEN: ${{ secrets.NPM_REGISTRY_TOKEN }}
           NO_HUSKY: 1
         run: |
           git config --global user.name 'storyblok-components'
           git config --global user.email 'marckraw@icloud.com'
           git log -n 1
           git status
-          npx lerna publish --conventional-commits --changelog-preset conventionalcommits -m 'chore(release): publish' --yes
+          npx lerna publish --conventional-commits --changelog-preset conventionalcommits -m 'chore(release): publish' --registry https://registry.npmjs.org --yes
