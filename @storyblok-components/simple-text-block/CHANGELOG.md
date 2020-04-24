@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.1.3 (2020-04-24)</small>
+
+* Merge branch 'master' of github.com:storyblok-components/components ([86f8fc3](https://github.com/storyblok-components/components/commit/86f8fc3))
+* fix(simple-text-block): add publish config to package.json ([8280808](https://github.com/storyblok-components/components/commit/8280808))
+
+
+
+
+
 ## <small>0.1.2 (2020-04-24)</small>
 
 * fix(simple-text-block): simple change ([180cd03](https://github.com/storyblok-components/components/commit/180cd03))
