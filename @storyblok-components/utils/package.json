@@ -3,7 +3,7 @@
   "description": "@storyblok-components utils",
   "author": "Marcin Krawczyk marckraw@icloud.com",
   "license": "MIT",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "babel": {
     "presets": [
       "@babel/preset-react"
