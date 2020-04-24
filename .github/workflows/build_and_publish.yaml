@@ -1,0 +1,37 @@
+name: Build and Publish @storyblok-components monorepo packages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: Building packages
+        env:
+        run: |
+          yarn install
+
+          yarn start
+      - name: Prepare repository
+        run: git reset --hard HEAD
+      - name: Publishing on Global npm registry
+        env:
+          NO_HUSKY: 1
+        run: |
+          git config --global user.name 'storyblok-components'
+          git config --global user.email 'marckraw@icloud.com'
+          git log -n 1
+          git status
+          npx lerna publish --conventional-commits --changelog-preset conventionalcommits -m 'chore(release): publish' --yes

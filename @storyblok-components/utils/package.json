@@ -1,0 +1,45 @@
+{
+  "name": "@storyblok-components/utils",
+  "description": "@storyblok-components utils",
+  "author": "Marcin Krawczyk marckraw@icloud.com",
+  "license": "MIT",
+  "version": "0.2.0",
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.modern.js",
+  "scripts": {
+    "build": "microbundle --no-compress --jsx React.createElement && find ./src -name \\*.sb.js -exec cp {} dist \\;"
+  },
+  "peerDependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "keywords": [
+    "@storyblok-components",
+    "storyblok",
+    "component"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-react": "^7.0.0",
+    "microbundle": "^0.11.0"
+  }
+}
