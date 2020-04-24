@@ -3,7 +3,7 @@
   "description": "Simple text block with markdown for Storyblok",
   "author": "Marcin Krawczyk <marckraw@icloud.com>",
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "babel": {
     "presets": [
       "@babel/preset-react"
