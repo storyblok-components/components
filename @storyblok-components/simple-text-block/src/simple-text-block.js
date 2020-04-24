@@ -8,7 +8,11 @@ const SimpleTextBlock = (props) => {
   return (
     <SbEditable content={props.blok}>
       <div>
-        {props.blok.title && <TitleTag>{props.blok.title}</TitleTag>}
+        {props.blok.title && (
+          <TitleTag style={{ marginBottom: '16px' }}>
+            {props.blok.title}
+          </TitleTag>
+        )}
         <div>
           <ReactMardown source={props.blok.content} className="markdown" />
         </div>
