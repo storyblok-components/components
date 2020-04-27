@@ -1,3 +1,7 @@
+<p align="center">
+    <img width="500" src="./sbc-logo-500.png" alt="Logo" />
+</p>
+
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
 If you've found an issue or you have feature request - <a href="https://github.com/storyblok-components/storyblok-components/issues/new">open an issue</a> or look if it was <a href="https://github.com/storyblok-components/components/issues/">already created</a>.
