@@ -8,7 +8,7 @@ yarn add @storyblok-components/video-component
 ```
 
 ## Usage
-You can immediately use installed components schema with `sb-mig` `--sync --ext` functionality.
+You can immediately use installed components schema with `sb-mig sync --ext` functionality.
 
 You just need to edit your `storyblok.config.js` and add `'node_modules/@storyblok-components'` which will tell `sb-mig` to look for schema files inside `@storyblok-components` folder.
 ```
@@ -23,7 +23,7 @@ module.exports = {
 then you can just run
 
 ```
-sb-mig --sync --ext video-component
+sb-m sync --ext video-component
 ```
 
 which will sync video-component schema to your storyblok space.

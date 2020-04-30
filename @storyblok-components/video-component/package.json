@@ -1,7 +1,7 @@
 {
   "name": "@storyblok-components/video-component",
   "description": "Video Storyblok component",
-  "author": "Global Creative",
+  "author": "Pedro Sousa",
   "license": "MIT",
   "version": "0.1.0",
   "babel": {
@@ -42,10 +42,6 @@
     "@babel/core": "^7.8.4",
     "@babel/preset-react": "^7.0.0",
     "microbundle": "^0.11.0"
-  },
-  "publishConfig": {
-    "registry": "https://npmregistry.ef.com",
-    "access": "public"
   },
   "dependencies": {
     "node-sass": "^4.14.0",
