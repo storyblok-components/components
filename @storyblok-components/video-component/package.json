@@ -12,7 +12,7 @@
   "main": "./dist/index.js",
   "module": "./dist/index.modern.js",
   "scripts": {
-    "build": "microbundle --jsx React.createElement && find ./src -name \\*.sb.js -exec cp {} dist \\;"
+    "build": "microbundle --jsx React.createElement"
   },
   "peerDependencies": {
     "react": "^16.4.0",
@@ -35,7 +35,9 @@
     "@storyblok-components",
     "storyblok",
     "component",
-    "video"
+    "video",
+    "video-component",
+    "react"
   ],
   "devDependencies": {
     "@babel/cli": "^7.5.5",
