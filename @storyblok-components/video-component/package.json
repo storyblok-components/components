@@ -12,6 +12,7 @@
   "main": "./dist/index.js",
   "module": "./dist/index.modern.js",
   "scripts": {
+    "dev": "microbundle --no-compress --jsx React.createElement --watch",
     "build": "microbundle --jsx React.createElement"
   },
   "peerDependencies": {
