@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.3.1 (2020-05-10)</small>
+
+* fix(video-component): add storyblok editable to component ([079e211](https://github.com/storyblok-components/components/commit/079e211))
+
+
+
+
+
 ## 0.3.0 (2020-05-08)
 
 * fix(sdfsdf): sdfsdf ([1cf91c1](https://github.com/storyblok-components/components/commit/1cf91c1))
