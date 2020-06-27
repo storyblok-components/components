@@ -1,15 +1,16 @@
 {
   "name": "root",
   "workspaces": [
-    "@storyblok-components/*"
+    "@storyblok-components/*",
+    "@docs"
   ],
   "author": "Marcin Krawczyk <marckraw@icloud.com> and Pedro Sousa",
   "license": "MIT",
   "private": true,
   "version": "0.0.1",
   "scripts": {
-    "start": "lerna exec --parallel --ignore '@storyblok-components/docs' yarn build > /dev/null",
-    "start-docs": "node scripts/generateComponentsList.js && cd @storyblok-components/docs && yarn run start",
+    "start": "lerna exec --parallel --ignore '@docs' yarn build > /dev/null",
+    "start-docs": "node scripts/generateComponentsList.js && cd @docs && yarn run start",
     "postinstall": "node ./node_modules/husky/lib/installer/bin install"
   },
   "devDependencies": {
