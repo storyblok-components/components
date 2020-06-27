@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.3.2 (2020-06-27)</small>
+
+* Merge branch 'master' of github.com:storyblok-components/components ([4804254](https://github.com/storyblok-components/components/commit/4804254))
+* fix(video-component): fix build and watch commands ([e295bcb](https://github.com/storyblok-components/components/commit/e295bcb))
+
+
+
+
+
 ## <small>0.3.1 (2020-05-10)</small>
 
 * fix(video-component): add storyblok editable to component ([079e211](https://github.com/storyblok-components/components/commit/079e211))

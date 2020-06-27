@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.1.5 (2020-06-27)</small>
+
+* fix(simple-text-block): fix build and watch command ([bc82143](https://github.com/storyblok-components/components/commit/bc82143))
+
+
+
+
+
 ## <small>0.1.4 (2020-04-24)</small>
 
 * Merge branch 'master' of github.com:storyblok-components/components ([6b6a25a](https://github.com/storyblok-components/components/commit/6b6a25a))
