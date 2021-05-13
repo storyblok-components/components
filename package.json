@@ -11,7 +11,7 @@
   "scripts": {
     "start-docs": "node scripts/generateComponentsList.js && cd @docs && yarn start",
     "start": "yarn build:components",
-    "build:components": "lerna exec --parallel --ignore '@docs' --ignore yarn build",
+    "build:components": "lerna exec --parallel --ignore '@docs' yarn build",
     "start:dev": "lerna exec --parallel --ignore '@docs' yarn build:dev",
     "dev": "yarn start:dev && yarn start-docs",
     "postinstall": "node ./node_modules/husky/lib/installer/bin install"
