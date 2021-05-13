@@ -2,9 +2,9 @@ import React from 'react';
 
 // This is HOC which passes all storyblok component list to component itself
 // so component can use them inside
-export const withComponents = (WrappedComponent) => (Components) => (props) => (
-  <WrappedComponent {...props} Components={(type) => Components(type)} />
-);
+// eslint-disable-next-line react/display-name
+export const withComponents = (WrappedComponent) => (Components) => (props) =>
+  <WrappedComponent {...props} Components={(type) => Components(type)} />;
 
 export const injectScopedInternalComponentList = (
   { components },
