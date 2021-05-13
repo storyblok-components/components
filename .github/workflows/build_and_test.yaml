@@ -1,7 +1,7 @@
-name: Build and Publish @storyblok-components monorepo packages
+name: Build and Test @storyblok-components monorepo packages
 
 on:
-  push:
+  pull_request:
     branches:
       - master
 
@@ -29,16 +29,3 @@ jobs:
           yarn install
 
           yarn start
-      - name: Prepare repository
-        run: git reset --hard HEAD
-      - name: Publishing on Global npm registry
-        env:
-          NPM_REGISTRY_TOKEN: ${{ secrets.NPM_REGISTRY_TOKEN }}
-          NPM_REGISTRY: ${{ secrets.NPM_REGISTRY }}
-          NO_HUSKY: 1
-        run: |
-          git config --global user.name 'storyblok-components'
-          git config --global user.email 'marckraw@icloud.com'
-          git log -n 1
-          git status
-          npx lerna publish --conventional-commits --changelog-preset conventionalcommits -m 'chore(release): publish' --registry $NPM_REGISTRY --yes
