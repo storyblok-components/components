@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.3.5 (2021-05-13)</small>
+
+* fix(simple-text-block and utils): fix build flow for components and utilities ([b4465f7](https://github.com/storyblok-components/components/commit/b4465f7))
+
+
+
+
+
 ## <small>0.3.4 (2020-04-24)</small>
 
 **Note:** Version bump only for package @storyblok-components/utils

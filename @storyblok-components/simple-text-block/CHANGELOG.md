@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.1.6 (2021-05-13)</small>
+
+* fix(simple-text-block and utils): fix build flow for components and utilities ([b4465f7](https://github.com/storyblok-components/components/commit/b4465f7))
+
+
+
+
+
 ## <small>0.1.5 (2020-06-27)</small>
 
 * fix(simple-text-block): fix build and watch command ([bc82143](https://github.com/storyblok-components/components/commit/bc82143))

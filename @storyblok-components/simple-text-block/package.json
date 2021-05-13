@@ -3,7 +3,7 @@
   "description": "Simple text block with markdown for Storyblok",
   "author": "Marcin Krawczyk <marckraw@icloud.com>",
   "license": "MIT",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "keywords": [
     "@storyblok-components",
     "storyblok",
@@ -25,7 +25,6 @@
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },
-
   "devDependencies": {
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.8.4",
