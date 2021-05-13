@@ -9,7 +9,7 @@
   "private": true,
   "version": "0.0.1",
   "scripts": {
-    "start-docs": "node scripts/generateComponentsList.js && cd @docs && yarn start",
+    "start-docs": "node scripts/generateComponentsList.js && node scripts/generateComponentSchemaList.js &&  cd @docs && yarn start",
     "start": "yarn build:components",
     "build:components": "lerna exec --parallel --ignore '@docs' yarn build",
     "start:dev": "lerna exec --parallel --ignore '@docs' yarn build:dev",
@@ -37,7 +37,9 @@
   },
   "dependencies": {
     "babel-eslint": "^10.1.0",
-    "core-js": "2.6.5"
+    "chalk": "^4.1.1",
+    "core-js": "2.6.5",
+    "figlet": "^1.5.0"
   },
   "config": {
     "commitizen": {
