@@ -11,6 +11,7 @@
     "start": "next start",
     "export": "next export",
     "serve:export:production": "rm -rf ./out && yarn build && yarn export && npx http-serve ./out",
+    "export:production": "rm -rf ./out && yarn build && yarn export",
     "sync:all": "sb-mig sync components --all --ext",
     "kill:next": "npx kill-port 3000"
   },
