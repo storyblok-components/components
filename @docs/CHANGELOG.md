@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.1.1 (2021-05-14)</small>
+
+* Merge branch 'master' of github.com:storyblok-components/components ([626edf9](https://github.com/storyblok-components/components/commit/626edf9))
+* fix(simple-text-bloick): destructure moooore, add classnames ([fd3e5e3](https://github.com/storyblok-components/components/commit/fd3e5e3))
+
+
+
+
+
 ## 0.1.0 (2021-05-14)
 
 * feat(docs): add tailwindcss to documentation ([8a063a6](https://github.com/storyblok-components/components/commit/8a063a6))
