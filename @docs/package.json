@@ -3,7 +3,7 @@
   "description": "NextJS @storyblok-components core boilerplate",
   "author": "Marcin Krawczyk <marckraw@icloud.com>",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -15,7 +15,7 @@
     "kill:next": "npx kill-port 3000"
   },
   "dependencies": {
-    "@storyblok-components/simple-text-block": "^0.1.6",
+    "@storyblok-components/simple-text-block": "^0.1.7",
     "@storyblok-components/utils": "^0.3.5",
     "axios": "^0.21.1",
     "next": "^10.2.0",

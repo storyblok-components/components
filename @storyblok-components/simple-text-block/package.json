@@ -3,7 +3,7 @@
   "description": "Simple text block with markdown for Storyblok",
   "author": "Marcin Krawczyk <marckraw@icloud.com>",
   "license": "MIT",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "keywords": [
     "@storyblok-components",
     "storyblok",

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.1.7 (2021-05-14)</small>
+
+* docs(whole docs): add documentation boilerplate nextjs project ([0d3d125](https://github.com/storyblok-components/components/commit/0d3d125))
+
+
+
+
+
 ## <small>0.1.6 (2021-05-13)</small>
 
 * fix(simple-text-block and utils): fix build flow for components and utilities ([b4465f7](https://github.com/storyblok-components/components/commit/b4465f7))
