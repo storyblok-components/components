@@ -5,9 +5,7 @@ class CustomDocument extends Document {
   render() {
     return (
       <Html>
-        <Head>
-          <title>@storyblok-components documentation</title>
-        </Head>
+        <Head />
         <body>
           <Main />
           <NextScript />
