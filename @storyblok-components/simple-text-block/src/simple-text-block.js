@@ -14,6 +14,7 @@ const SimpleTextBlock = (props) => {
           </TitleTag>
         )}
         <div>
+          dupa
           <ReactMardown source={props.blok.content} className="markdown" />
         </div>
       </div>

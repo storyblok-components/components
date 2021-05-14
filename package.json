@@ -9,10 +9,10 @@
   "private": true,
   "version": "0.0.1",
   "scripts": {
-    "start-docs": "node scripts/generateComponentsList.js && node scripts/generateComponentSchemaList.js &&  cd @docs && yarn start",
+    "start-docs": "node scripts/generateComponentsList.js && node scripts/generateComponentSchemaList.js &&  cd @docs && yarn dev",
     "start": "yarn build:components",
-    "build:components": "lerna exec --parallel --ignore '@docs' yarn build",
-    "start:dev": "lerna exec --parallel --ignore '@docs' yarn build:dev",
+    "build:components": "lerna exec --parallel --ignore '@docs/docs' yarn build",
+    "start:dev": "lerna exec --parallel --ignore '@docs/docs' yarn build:dev",
     "dev": "yarn start:dev && yarn start-docs",
     "postinstall": "node ./node_modules/husky/lib/installer/bin install"
   },

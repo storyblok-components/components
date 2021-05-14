@@ -1,0 +1,36 @@
+{
+  "name": "@docs/docs",
+  "description": "NextJS @storyblok-components core boilerplate",
+  "author": "Marcin Krawczyk <marckraw@icloud.com>",
+  "license": "MIT",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:analyze": "ANALYZE=true yarn build",
+    "start": "next start",
+    "export": "next export",
+    "serve:export:production": "rm -rf ./out && yarn build && yarn export && npx http-serve ./out",
+    "sync:all": "sb-mig sync components --all --ext",
+    "kill:next": "npx kill-port 3000"
+  },
+  "dependencies": {
+    "@storyblok-components/simple-text-block": "^0.1.6",
+    "@storyblok-components/utils": "^0.3.5",
+    "axios": "^0.21.1",
+    "next": "^10.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-markdown": "^6.0.2",
+    "sass": "^1.32.8",
+    "storyblok-js-client": "^3.3.1",
+    "storyblok-react": "^0.1.2"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^10.2.0",
+    "next-compose-plugins": "^2.2.1",
+    "next-transpile-modules": "^7.0.0",
+    "sb-mig": "^2.9.1"
+  }
+}

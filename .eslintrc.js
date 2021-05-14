@@ -37,6 +37,9 @@ module.exports = {
     "no-underscore-dangle": 0,
     "import/namespace": 0,
     "import/named": 0,
+    "react/react-in-jsx-scope": 0,
+    "react/display-name": 0,
+    camelcase: 0,
   },
   root: true,
   settings: {
