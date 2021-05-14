@@ -9,5 +9,8 @@ module.exports = {
       type: 'bloks',
       translatable: false,
     },
+    center: {
+      type: 'boolean',
+    },
   },
 };

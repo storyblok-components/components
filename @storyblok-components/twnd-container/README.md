@@ -32,12 +32,12 @@ sb-mig sync --ext twnd-container
 which will sync twnd-container schema to your storyblok space.
 You can also, import schema inside your other schema, and use only part of it:
 ```
-const SimpleTextBlock = require("@storyblok-components/twnd-container/twnd-container.sb");
+const TailwindContainer = require("@storyblok-components/twnd-container/twnd-container.sb");
 ```
 
 For React part of component
 ```
-import SimpleTextBlock from '@storyblok-components/twnd-container`
+import TailwindContainer from '@storyblok-components/twnd-container`
 ```
 
 
