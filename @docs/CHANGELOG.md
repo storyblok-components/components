@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.0.3 (2021-05-14)</small>
+
+* fix(build and deploy): for some reason cusomt __document.js has to be a class ? who knows ([3b52044](https://github.com/storyblok-components/components/commit/3b52044))
+
+
+
+
+
 ## <small>0.0.2 (2021-05-14)</small>
 
 * fix(docs version): and also add script to build and deploy ([adf7e68](https://github.com/storyblok-components/components/commit/adf7e68))

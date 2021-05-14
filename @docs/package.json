@@ -3,7 +3,7 @@
   "description": "NextJS @storyblok-components core boilerplate",
   "author": "Marcin Krawczyk <marckraw@icloud.com>",
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "scripts": {
     "dev": "next dev",
