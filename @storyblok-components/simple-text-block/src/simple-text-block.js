@@ -3,19 +3,16 @@ import SbEditable from 'storyblok-react';
 import ReactMardown from 'react-markdown';
 
 const SimpleTextBlock = (props) => {
-  const TitleTag = `h${props.blok.title_size}`;
+  const { blok } = props;
+  const { title, content, title_size } = blok;
+  const TitleTag = `h${title_size}`;
 
   return (
-    <SbEditable content={props.blok}>
+    <SbEditable content={blok}>
       <div>
-        {props.blok.title && (
-          <TitleTag style={{ marginBottom: '16px' }}>
-            {props.blok.title}
-          </TitleTag>
-        )}
+        {title && <TitleTag style={{ marginBottom: '16px' }}>{title}</TitleTag>}
         <div>
-          dupa
-          <ReactMardown source={props.blok.content} className="markdown" />
+          <ReactMardown>{content}</ReactMardown>
         </div>
       </div>
     </SbEditable>
