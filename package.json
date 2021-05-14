@@ -12,7 +12,7 @@
     "start-docs": "node scripts/generateComponentsList.js && node scripts/generateComponentSchemaList.js && cd @docs && yarn dev",
     "start": "yarn build:components",
     "build:components": "lerna exec --parallel --ignore '@docs/docs' yarn build",
-    "build-docs": "lerna link && node scripts/generateComponentsList.js && node scripts/generateComponentSchemaList.js && cd @docs && yarn export:production",
+    "build-docs": "node scripts/generateComponentsList.js && node scripts/generateComponentSchemaList.js && cd @docs && yarn export:production",
     "start:dev": "lerna exec --parallel --ignore '@docs/docs' yarn build:dev",
     "dev": "yarn start:dev && yarn start-docs",
     "postinstall": "node ./node_modules/husky/lib/installer/bin install"
@@ -60,7 +60,7 @@
   },
   "husky": {
     "hooks": {
-      "prepare-commit-msg": "exec < /dev/tty && git cz --hook",
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
       "pre-commit": "lint-staged"
     }
   }
