@@ -27,5 +27,36 @@ module.exports = {
     reverse: {
       type: 'boolean',
     },
+    justify: {
+      type: 'option',
+      use_uuid: true,
+      options: [
+        {
+          value: 'center',
+          name: 'center',
+        },
+        {
+          value: 'start',
+          name: 'start',
+        },
+        {
+          value: 'end',
+          name: 'end',
+        },
+        {
+          value: 'between',
+          name: 'between',
+        },
+        {
+          value: 'around',
+          name: 'around',
+        },
+        {
+          value: 'evenly',
+          name: 'evenly',
+        },
+      ],
+      default_value: 'row',
+    },
   },
 };

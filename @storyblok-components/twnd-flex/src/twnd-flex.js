@@ -4,10 +4,12 @@ import cn from 'classnames';
 
 const TwndFlex = (props) => {
   const { blok, Components, children } = props;
-  const { content, orientation, reverse } = blok;
+  const { content, orientation, reverse, justify } = blok;
 
   const classes = cn(
-    `flex ${reverse ? `flex-${orientation}-reverse` : `flex-${orientation}`}`
+    `flex ${
+      reverse ? `flex-${orientation}-reverse` : `flex-${orientation}`
+    } justify-${justify}`
   );
 
   return (
