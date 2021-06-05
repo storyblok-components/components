@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.0](https://github.com/storyblok-components/components/compare/@storyblok-components/twnd-flex@0.1.2...@storyblok-components/twnd-flex@0.2.0) (2021-06-05)
+
+
+### Features
+
+* **twnd-flex:** update flex component to also be able to space flex items (center, between, etc)" ([87cb795](https://github.com/storyblok-components/components/commit/87cb795478bf690b18945a5c703e76bd503fd783))
+
+
+
 ### [0.1.2](https://github.com/storyblok-components/components/compare/@storyblok-components/twnd-flex@0.1.1...@storyblok-components/twnd-flex@0.1.2) (2021-06-05)
 
 
