@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.0](https://github.com/storyblok-components/components/compare/@docs/docs@0.1.3...@docs/docs@0.2.0) (2021-06-05)
+
+
+### Features
+
+* **twnd-card:** add dummy card component ([4863dc3](https://github.com/storyblok-components/components/commit/4863dc372702c1a242ee50907bac9cfff5f61047))
+
+
+### Bug Fixes
+
+* **upd deps:** wrong update deps ([42856ac](https://github.com/storyblok-components/components/commit/42856ac4bff241fd889b955b390bb6788060bb45))
+
+
+
 ### [0.1.3](https://github.com/storyblok-components/components/compare/@docs/docs@0.1.2...@docs/docs@0.1.3) (2021-06-05)
 
 **Note:** Version bump only for package @docs/docs
