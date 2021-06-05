@@ -3,9 +3,10 @@ import Layout from '../components/Layout';
 import Page from '../components/Page';
 import Storyblok from '../lib/storyblok-client';
 
-const Index = ({ story }) => (
-  <Layout>{story && <Page content={story.content} />}</Layout>
-);
+const Index = ({ story }) => {
+  console.log('whatever');
+  return <Layout>{story && <Page content={story.content} />}</Layout>;
+};
 
 export default Index;
 
