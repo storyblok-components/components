@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.2.1](https://github.com/storyblok-components/components/compare/@storyblok-components/twnd-flex@0.2.0...@storyblok-components/twnd-flex@0.2.1) (2021-06-05)
+
+
+### Bug Fixes
+
+* **twnd-flex:** fix default storyblok component value for justify ([e20aa61](https://github.com/storyblok-components/components/commit/e20aa61720166d01fe5e6b3c46669b2c8af4a15b))
+
+
+
 ## [0.2.0](https://github.com/storyblok-components/components/compare/@storyblok-components/twnd-flex@0.1.2...@storyblok-components/twnd-flex@0.2.0) (2021-06-05)
 
 
