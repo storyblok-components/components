@@ -42,4 +42,4 @@ import example from '@storyblok-components/twnd-flex`
 
 
 ## FAQ
-1) ?
+1) 
