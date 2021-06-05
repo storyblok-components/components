@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.0](https://github.com/storyblok-components/components/compare/@docs/docs@0.2.0...@docs/docs@0.3.0) (2021-06-05)
+
+
+### Features
+
+* **twnd-flex:** add tailwind flex container ([f33c4aa](https://github.com/storyblok-components/components/commit/f33c4aa84ad5ea8221bbf382e0c4fd949df5d385))
+
+
+### Bug Fixes
+
+* **docs:** there is no component yet deployed ([ceee6e5](https://github.com/storyblok-components/components/commit/ceee6e5d2a5a9ee272285d34325a02ffb5d9a171))
+
+
+
 ## [0.2.0](https://github.com/storyblok-components/components/compare/@docs/docs@0.1.3...@docs/docs@0.2.0) (2021-06-05)
 
 
