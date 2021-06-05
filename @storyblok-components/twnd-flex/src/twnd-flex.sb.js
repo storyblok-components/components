@@ -56,7 +56,7 @@ module.exports = {
           name: 'evenly',
         },
       ],
-      default_value: 'row',
+      default_value: 'start',
     },
   },
 };
