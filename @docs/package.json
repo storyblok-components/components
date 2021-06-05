@@ -21,6 +21,7 @@
     "@storyblok-components/simple-text-block": "^0.1.12",
     "@storyblok-components/twnd-card": "^0.1.0",
     "@storyblok-components/twnd-container": "^0.1.2",
+    "@storyblok-components/twnd-flex": "^0.2.1",
     "@storyblok-components/utils": "^0.3.7",
     "autoprefixer": "^10.2.5",
     "axios": "^0.21.1",
