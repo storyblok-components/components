@@ -4,6 +4,7 @@ import { injectScopedInternalComponentList } from '@storyblok-components/utils';
 import * as ScopedSimpleTextBlock from '@storyblok-components/simple-text-block';
 import * as ScopedTwndContainer from '@storyblok-components/twnd-container';
 import * as ScopedTwndCard from '@storyblok-components/twnd-card';
+import * as ScopedTwndFlex from '@storyblok-components/twnd-flex';
 import Placeholder from './Placeholder';
 
 const withComponentList = (type) => (componentList) => {
@@ -33,6 +34,7 @@ const ScopedComponentList = {
         ScopedSimpleTextBlock.ComponentList,
         ScopedTwndContainer.ComponentList,
         ScopedTwndCard.ComponentList,
+        ScopedTwndFlex.ComponentList,
       ],
     },
     Components // injecting all Components you will use normally, into any of scoped components
