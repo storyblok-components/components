@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.3.7](https://github.com/storyblok-components/components/compare/@storyblok-components/utils@0.3.6...@storyblok-components/utils@0.3.7) (2021-06-05)
+
+**Note:** Version bump only for package @storyblok-components/utils
+
+
+
+
+
 ## <small>0.3.6 (2021-05-14)</small>
 
 * fix(simple-text-bloick): destructure moooore, add classnames ([fd3e5e3](https://github.com/storyblok-components/components/commit/fd3e5e3))

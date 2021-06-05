@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.1.2](https://github.com/storyblok-components/components/compare/@docs/docs@0.1.1...@docs/docs@0.1.2) (2021-06-05)
+
+
+### Bug Fixes
+
+* **upd deps for commitlint:** upd deps ([eb2c040](https://github.com/storyblok-components/components/commit/eb2c0409518b29774a40f7d0648e0ed8227fa795))
+
+
+
 ## <small>0.1.1 (2021-05-14)</small>
 
 * Merge branch 'master' of github.com:storyblok-components/components ([626edf9](https://github.com/storyblok-components/components/commit/626edf9))

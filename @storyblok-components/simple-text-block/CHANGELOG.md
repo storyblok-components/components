@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.1.11](https://github.com/storyblok-components/components/compare/@storyblok-components/simple-text-block@0.1.10...@storyblok-components/simple-text-block@0.1.11) (2021-06-05)
+
+**Note:** Version bump only for package @storyblok-components/simple-text-block
+
+
+
+
+
 ## <small>0.1.10 (2021-05-14)</small>
 
 * Merge branch 'master' of github.com:storyblok-components/components ([626edf9](https://github.com/storyblok-components/components/commit/626edf9))
