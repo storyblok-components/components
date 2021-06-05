@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.1.2](https://github.com/storyblok-components/components/compare/@storyblok-components/twnd-flex@0.1.1...@storyblok-components/twnd-flex@0.1.2) (2021-06-05)
+
+
+### Bug Fixes
+
+* **twnd-flex:** just to deploy ([629d16c](https://github.com/storyblok-components/components/commit/629d16cc061ba30dd891047d0f07a5e81e8a24d4))
+
+
+
 ### [0.1.1](https://github.com/storyblok-components/components/compare/@storyblok-components/twnd-flex@0.1.0...@storyblok-components/twnd-flex@0.1.1) (2021-06-05)
 
 **Note:** Version bump only for package @storyblok-components/twnd-flex
