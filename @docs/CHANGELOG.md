@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.3.5](https://github.com/storyblok-components/components/compare/@docs/docs@0.3.4...@docs/docs@0.3.5) (2021-06-05)
+
+
+### Bug Fixes
+
+* **twnd-card:** remove not needed console.logs from card ([a8ff72b](https://github.com/storyblok-components/components/commit/a8ff72b12b0edb7f4120c4dac9f01cf535f6d22f))
+
+
+
 ### [0.3.4](https://github.com/storyblok-components/components/compare/@docs/docs@0.3.3...@docs/docs@0.3.4) (2021-06-05)
 
 **Note:** Version bump only for package @docs/docs
