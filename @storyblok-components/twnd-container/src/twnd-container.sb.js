@@ -12,5 +12,16 @@ module.exports = {
     center: {
       type: 'boolean',
     },
+    box_model: {
+      type: 'custom',
+      description: 'Spacing plugin',
+      field_type: 'sbp-spacing-plugin',
+      options: [],
+    },
+    spacing: {
+      type: 'tab',
+      display_name: 'Spacing',
+      keys: ['box_model'],
+    },
   },
 };
