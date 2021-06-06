@@ -1,15 +1,16 @@
 import React from 'react';
 import SbEditable from 'storyblok-react';
 import cn from 'classnames';
+import { withSpacing } from '@storyblok-components/utils';
 
 const TwndFlex = (props) => {
-  const { blok, Components, children } = props;
+  const { blok, Components, children, spacing } = props;
   const { content, orientation, reverse, justify } = blok;
 
   const classes = cn(
     `flex ${
       reverse ? `flex-${orientation}-reverse` : `flex-${orientation}`
-    } justify-${justify}`
+    } justify-${justify}`, spacing
   );
 
   return (
@@ -28,4 +29,4 @@ const TwndFlex = (props) => {
   );
 };
 
-export default TwndFlex;
+export default withSpacing(TwndFlex);
