@@ -2,7 +2,6 @@
   "name": "root",
   "workspaces": [
     "@storyblok-components/*",
-    "@storyblok-plugins/*",
     "@docs"
   ],
   "author": "Marcin Krawczyk <marckraw@icloud.com> and Pedro Sousa",
