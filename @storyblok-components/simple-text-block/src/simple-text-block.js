@@ -9,7 +9,7 @@ const SimpleTextBlock = (props) => {
   const { title, content, title_size } = blok;
   const TitleTag = `h${title_size}`;
 
-  const classes = cn(spacing)
+  const classes = cn(spacing);
 
   return (
     <SbEditable content={blok}>
