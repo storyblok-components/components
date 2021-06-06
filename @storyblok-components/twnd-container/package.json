@@ -3,7 +3,7 @@
   "description": "Tailwindcss Container",
   "author": "Marcin Krawczyk <marckraw@icloud.com>",
   "license": "MIT",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "keywords": [
     "@storyblok-components",
     "storyblok",
@@ -21,9 +21,9 @@
     "build:dev": "rollup -c -w"
   },
   "peerDependencies": {
+    "@storyblok-components/utils": "^0.4.0",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0",
-    "@storyblok-components/utils": "^0.4.0"
+    "react-dom": "^17.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",

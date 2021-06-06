@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.4.2](https://github.com/storyblok-components/components/compare/@docs/docs@0.4.1...@docs/docs@0.4.2) (2021-06-06)
+
+
+### Bug Fixes
+
+* **with spacing:** fix it ([f31eed2](https://github.com/storyblok-components/components/commit/f31eed26c07326cc36a46adfe281d4648f7f8d4b))
+
+
+
 ### [0.4.1](https://github.com/storyblok-components/components/compare/@docs/docs@0.4.0...@docs/docs@0.4.1) (2021-06-06)
 
 **Note:** Version bump only for package @docs/docs

@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.2.2](https://github.com/storyblok-components/components/compare/@storyblok-components/simple-text-block@0.2.1...@storyblok-components/simple-text-block@0.2.2) (2021-06-06)
+
+
+### Bug Fixes
+
+* **with spacing:** fix it ([f31eed2](https://github.com/storyblok-components/components/commit/f31eed26c07326cc36a46adfe281d4648f7f8d4b))
+
+
+
 ### [0.2.1](https://github.com/storyblok-components/components/compare/@storyblok-components/simple-text-block@0.2.0...@storyblok-components/simple-text-block@0.2.1) (2021-06-06)
 
 
