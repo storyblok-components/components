@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.0](https://github.com/storyblok-components/components/compare/@storyblok-components/utils@0.3.8...@storyblok-components/utils@0.4.0) (2021-06-06)
+
+
+### Features
+
+* **utils:** add utils for spacing plugin, update components to have spacing fields ([cd00fd6](https://github.com/storyblok-components/components/commit/cd00fd6837d5b6947c4eaea85a80d21a9321978d))
+
+
+
 ### [0.3.8](https://github.com/storyblok-components/components/compare/@storyblok-components/utils@0.3.7...@storyblok-components/utils@0.3.8) (2021-06-06)
 
 **Note:** Version bump only for package @storyblok-components/utils

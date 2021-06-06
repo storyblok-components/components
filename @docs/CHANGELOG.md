@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.0](https://github.com/storyblok-components/components/compare/@docs/docs@0.3.6...@docs/docs@0.4.0) (2021-06-06)
+
+
+### Features
+
+* **spacing-plugin:** add spacing plugin ([bbea2c9](https://github.com/storyblok-components/components/commit/bbea2c9ee03d3a7b5d33eee95eafe4c2fd5a6da6))
+
+
+
 ### [0.3.6](https://github.com/storyblok-components/components/compare/@docs/docs@0.3.5...@docs/docs@0.3.6) (2021-06-06)
 
 **Note:** Version bump only for package @docs/docs
