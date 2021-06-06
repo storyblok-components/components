@@ -3,7 +3,7 @@
   "description": "NextJS @storyblok-components core boilerplate",
   "author": "Marcin Krawczyk <marckraw@icloud.com>",
   "license": "MIT",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -18,11 +18,11 @@
     "kill:next": "npx kill-port 3000"
   },
   "dependencies": {
-    "@storyblok-components/simple-text-block": "^0.2.2",
+    "@storyblok-components/simple-text-block": "^0.2.3",
     "@storyblok-components/twnd-card": "^0.2.2",
     "@storyblok-components/twnd-container": "^0.2.2",
     "@storyblok-components/twnd-flex": "^0.3.2",
-    "@storyblok-components/utils": "^0.4.0",
+    "@storyblok-components/utils": "^0.4.1",
     "autoprefixer": "^10.2.5",
     "axios": "^0.21.1",
     "classnames": "^2.3.1",

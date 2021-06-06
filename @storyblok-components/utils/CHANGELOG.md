@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.4.1](https://github.com/storyblok-components/components/compare/@storyblok-components/utils@0.4.0...@storyblok-components/utils@0.4.1) (2021-06-06)
+
+
+### Bug Fixes
+
+* **utils:** fix xport of withSpacing HOC ([1c6e87c](https://github.com/storyblok-components/components/commit/1c6e87cba268c8b19c99010f70d14cfcda77a99a))
+
+
+
 ## [0.4.0](https://github.com/storyblok-components/components/compare/@storyblok-components/utils@0.3.8...@storyblok-components/utils@0.4.0) (2021-06-06)
 
 
