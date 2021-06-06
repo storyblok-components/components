@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.2.1](https://github.com/storyblok-components/components/compare/@storyblok-components/simple-text-block@0.2.0...@storyblok-components/simple-text-block@0.2.1) (2021-06-06)
+
+
+### Bug Fixes
+
+* **3 components:** add spacing from with spacing hodc ([625ddc7](https://github.com/storyblok-components/components/commit/625ddc7e639a70b3b6c572d35b737e74d1386fb6))
+* **simple-text-block:** add spacing classes from HOC with spacing ([8325573](https://github.com/storyblok-components/components/commit/8325573905ad81a4a71633217abd8c275006f568))
+
+
+
 ## [0.2.0](https://github.com/storyblok-components/components/compare/@storyblok-components/simple-text-block@0.1.13...@storyblok-components/simple-text-block@0.2.0) (2021-06-06)
 
 
