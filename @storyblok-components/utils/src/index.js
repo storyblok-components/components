@@ -1,5 +1,7 @@
 import React from 'react';
 
+export { default as withSpacing } from './components/WithSpacingHOC';
+
 // This is HOC which passes all storyblok component list to component itself
 // so component can use them inside
 // eslint-disable-next-line react/display-name
