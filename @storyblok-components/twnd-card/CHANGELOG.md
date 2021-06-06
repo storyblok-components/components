@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.2.1](https://github.com/storyblok-components/components/compare/@storyblok-components/twnd-card@0.2.0...@storyblok-components/twnd-card@0.2.1) (2021-06-06)
+
+
+### Bug Fixes
+
+* **3 components:** add spacing from with spacing hodc ([625ddc7](https://github.com/storyblok-components/components/commit/625ddc7e639a70b3b6c572d35b737e74d1386fb6))
+
+
+
 ## [0.2.0](https://github.com/storyblok-components/components/compare/@storyblok-components/twnd-card@0.1.2...@storyblok-components/twnd-card@0.2.0) (2021-06-06)
 
 
