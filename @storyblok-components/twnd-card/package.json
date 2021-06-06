@@ -63,6 +63,7 @@
     ]
   },
   "dependencies": {
-    "classnames": "^2.3.1"
+    "classnames": "^2.3.1",
+    "rollup": "^2.51.0"
   }
 }
