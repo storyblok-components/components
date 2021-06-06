@@ -47,5 +47,16 @@ module.exports = {
       type: 'markdown',
       rich_markdown: false,
     },
+    box_model: {
+      type: 'custom',
+      description: 'Spacing plugin',
+      field_type: 'sbp-spacing-plugin',
+      options: [],
+    },
+    spacing: {
+      type: 'tab',
+      display_name: 'Spacing',
+      keys: ['box_model'],
+    },
   },
 };
