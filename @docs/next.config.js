@@ -11,7 +11,5 @@ module.exports = withPlugins([[withBundleAnalyzer], [withTM]], {
   reactStrictMode: true, // https://betterprogramming.pub/react-strictmode-is-your-lifeline-for-the-future-1f73064d3bf8
   target: 'serverless',
   trailingSlash: true,
-  future: {
-    webpack5: true,
-  },
+  webpack5: true,
 });
