@@ -27,7 +27,7 @@
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
     "commitizen": "^4.0.4",
-    "eslint": "^7.28.0",
+    "eslint": "^7.29.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-react": "^1.1.7",
@@ -39,7 +39,7 @@
     "husky": "^4.2.3",
     "lerna": "^4.0.0",
     "lint-staged": "^11.0.0",
-    "prettier": "^2.0.4"
+    "prettier": "^2.3.2"
   },
   "dependencies": {
     "babel-eslint": "^10.1.0",
