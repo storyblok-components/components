@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [0.4.5](https://github.com/storyblok-components/components/compare/@docs/docs@0.4.4...@docs/docs@0.4.5) (2021-06-26)
+
+
+### Bug Fixes
+
+* **deps:** upd deps in root and docs ([a8ff295](https://github.com/storyblok-components/components/commit/a8ff295c6e9d9773c97a46f180787ceeafeda7c8))
+
+
+
 ### [0.4.4](https://github.com/storyblok-components/components/compare/@docs/docs@0.4.3...@docs/docs@0.4.4) (2021-06-26)
 
 **Note:** Version bump only for package @docs/docs
