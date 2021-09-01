@@ -1,5 +1,5 @@
 {
-  "packages": ["@storyblok-components/*", "@docs"],
+  "packages": ["@storyblok-components/*", "@docs", "@nextjs-playground"],
   "version": "independent",
   "npmClient": "yarn",
   "useWorkspaces": true

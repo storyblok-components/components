@@ -8,6 +8,8 @@ const withBundleAnalyzer = bundleAnalyzer({
 });
 
 module.exports = withPlugins([[withBundleAnalyzer], [withTM]], {
+  // Prefer loading of ES Modules over CommonJS
+  experimental: { esmExternals: true },
   reactStrictMode: true, // https://betterprogramming.pub/react-strictmode-is-your-lifeline-for-the-future-1f73064d3bf8
   target: 'serverless',
   trailingSlash: true,
