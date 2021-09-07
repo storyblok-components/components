@@ -7,11 +7,23 @@ const TwndFlex = (props) => {
   const { blok, Components, children, spacing } = props;
   const { content, orientation, reverse, justify } = blok;
 
+  const isReversed = () => reverse;
+  const isRow = () => orientation === 'row';
+  const isColumn = () => orientation === 'col';
+
+  let result = '';
+
+  if (isRow()) {
+    result = isReversed() ? 'flex-row-reverse' : 'flex-row';
+  } else if (isColumn()) {
+    result = isReversed() ? 'flex-col-reverse' : 'flex-col';
+  }
+
   const classes = cn(
-    `flex ${
-      reverse ? `flex-${orientation}-reverse` : `flex-${orientation}`
-    } justify-${justify}`, spacing
+    `flex ${result} justify-${justify} some-random-class`,
+    spacing
   );
+  // const classes = cn(`flex flex-row-reverse justify-between`, spacing);
 
   return (
     <SbEditable content={blok}>
