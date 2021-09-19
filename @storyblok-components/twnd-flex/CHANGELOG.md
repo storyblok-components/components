@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.0](https://github.com/storyblok-components/components/compare/@storyblok-components/twnd-flex@0.3.2...@storyblok-components/twnd-flex@0.4.0) (2021-09-19)
+
+
+### Features
+
+* **packages and deps:** remove storyblok plugins, update a lot of deps, move packages to root ([29db762](https://github.com/storyblok-components/components/commit/29db762df441c9096a617e6d0d26f292416ac91f))
+
+
+### Bug Fixes
+
+* **deps and twnd-flex:** make sure, that twnd-flex classes are not being purged ([d5e5ebb](https://github.com/storyblok-components/components/commit/d5e5ebbe5cf5e9315043d44707547c17629da6e1))
+* **twnd-flex:** update twnd-flex schema ([b0d4f38](https://github.com/storyblok-components/components/commit/b0d4f381a81d00bd28cbee9c1ced0e826f9c4a72))
+
+
+
 ### [0.3.2](https://github.com/storyblok-components/components/compare/@storyblok-components/twnd-flex@0.3.1...@storyblok-components/twnd-flex@0.3.2) (2021-06-06)
 
 

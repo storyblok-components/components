@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.0](https://github.com/storyblok-components/components/compare/@docs/docs@0.4.5...@docs/docs@0.5.0) (2021-09-19)
+
+
+### Features
+
+* **packages and deps:** remove storyblok plugins, update a lot of deps, move packages to root ([29db762](https://github.com/storyblok-components/components/commit/29db762df441c9096a617e6d0d26f292416ac91f))
+
+
+### Bug Fixes
+
+* **deps and twnd-flex:** make sure, that twnd-flex classes are not being purged ([d5e5ebb](https://github.com/storyblok-components/components/commit/d5e5ebbe5cf5e9315043d44707547c17629da6e1))
+* **deps:** fix deps update ([6fb9666](https://github.com/storyblok-components/components/commit/6fb9666af5fa1e14e697ecb531f19039ce23ca7e))
+* **deps:** update deps ([b5e7d1e](https://github.com/storyblok-components/components/commit/b5e7d1eb9ca55a0c5a2b0801878dcb59cd8fe153))
+
+
+
 ### [0.4.5](https://github.com/storyblok-components/components/compare/@docs/docs@0.4.4...@docs/docs@0.4.5) (2021-06-26)
 
 
