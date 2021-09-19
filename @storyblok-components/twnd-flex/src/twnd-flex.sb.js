@@ -32,28 +32,28 @@ module.exports = {
       use_uuid: true,
       options: [
         {
-          value: 'center',
-          name: 'center',
+          value: 'justify-center',
+          name: 'justify-center',
         },
         {
-          value: 'start',
-          name: 'start',
+          value: 'justify-start',
+          name: 'justify-start',
         },
         {
-          value: 'end',
-          name: 'end',
+          value: 'justify-end',
+          name: 'justify-end',
         },
         {
-          value: 'between',
-          name: 'between',
+          value: 'justify-between',
+          name: 'justify-between',
         },
         {
-          value: 'around',
-          name: 'around',
+          value: 'justify-around',
+          name: 'justify-around',
         },
         {
-          value: 'evenly',
-          name: 'evenly',
+          value: 'justify-evenly',
+          name: 'justify-evenly',
         },
       ],
       default_value: 'start',

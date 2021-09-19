@@ -1,11 +1,8 @@
-import babel from '@rollup/plugin-babel';
-import commonjs from '@rollup/plugin-commonjs';
-import resolve from '@rollup/plugin-node-resolve';
-import { terser } from 'rollup-plugin-terser';
-import json from '@rollup/plugin-json';
-import autoexternal from 'rollup-plugin-auto-external';
+import { babel } from '@rollup/plugin-babel';
 import del from 'rollup-plugin-delete';
+import resolve from '@rollup/plugin-node-resolve';
 import filesize from 'rollup-plugin-filesize';
+import { terser } from 'rollup-plugin-terser';
 
 export default {
   input: 'src/index.js',
@@ -23,26 +20,19 @@ export default {
       sourcemap: true,
     },
   ],
-  external: [/@babel\/runtime/],
   plugins: [
-    autoexternal({ dependencies: false }),
     del({
       targets: 'dist',
     }),
     resolve({
-      preferBuiltins: true,
+      resolveOnly: ['lib-that-we-want-to-bundle'],
     }),
-    json(),
     babel({
-      exclude: /node_modules/,
-      babelHelpers: 'runtime',
-      presets: [['@babel/env', { modules: false }], '@babel/preset-react'], // modules false prevents transform to cjs
-      plugins: [
-        ['@babel/plugin-transform-runtime'],
-        '@babel/plugin-proposal-optional-chaining',
-      ],
+      exclude: '/node_modules/',
+      babelHelpers: 'bundled',
+      presets: ['@babel/preset-react'],
+      plugins: ['@babel/plugin-proposal-optional-chaining'],
     }),
-    commonjs(),
     terser({
       format: {
         comments: false,
