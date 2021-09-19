@@ -19,10 +19,7 @@ const TwndFlex = (props) => {
     result = isReversed() ? 'flex-col-reverse' : 'flex-col';
   }
 
-  const classes = cn(
-    `flex ${result} justify-${justify} some-random-class`,
-    spacing
-  );
+  const classes = cn(`flex ${result} ${justify} some-random-class`, spacing);
   // const classes = cn(`flex flex-row-reverse justify-between`, spacing);
 
   return (
